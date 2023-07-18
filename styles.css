@@ -1,19 +1,16 @@
-body{
+body {
     background-color: rgb(241, 250, 253);
 }
 
-@media only screen and (max-width: 1024px) {
-    .container {width: 200%;}  
-  }
-
-.container{
+.container {
     background-color: white;
     border: 4px solid white;
     border-radius: 10px;
     align-content: center;
     margin: 20px 340px 0px 340px;
 }
-.dot{
+
+.dot {
     height: 8px;
     width: 8px;
     background-color: red;
@@ -21,7 +18,7 @@ body{
     display: inline-block;
 }
 
-.notify-board{
+.notify-board {
     border: 1px solid rgb(232, 243, 248);
     background-color: rgb(232, 243, 248);
     border-radius: 10px;
@@ -29,7 +26,8 @@ body{
     display: flex;
     flex-direction: row;
 }
-.notia{
+
+.notia {
     border: 1px solid white;
     background-color: white;
     border-radius: 10px;
@@ -37,41 +35,46 @@ body{
     display: flex;
     flex-direction: row;
 }
-#img2{
+
+#img2 {
     padding-inline-start: 110px;
 }
-.notify-board4{
-   border: 1px solid white;
+
+.notify-board4 {
+    border: 1px solid white;
     background-color: white;
     border-radius: 10px;
     margin: 15px 25px 15px 25px;
     display: flex;
-    flex-direction: row; 
+    flex-direction: row;
 }
 
-#sp{
+#sp {
     margin-inline-start: 21rem;
 }
 
-#nt{
+#nt {
     color: black;
     font-weight: bolder;
     font-size: large;
 }
 
-.header{
+.header {
     margin: 0 0 2rem 2rem;
 }
-.notify-board1{
+
+.notify-board1 {
     display: block;
-    margin: 20px; 
+    margin: 20px;
 }
-.notib{
+
+.notib {
     display: flex;
     flex-direction: row;
     background-color: white;
 }
-#border-box{
+
+#border-box {
     border: 1px solid lightgray;
     background-color: white;
     border-radius: 10px;
@@ -79,7 +82,7 @@ body{
     margin: -20px 1rem 0px 80px;
 }
 
-#number{
+#number {
     border: 1px solid navy;
     border-radius: 5px;
     color: white;
@@ -88,14 +91,15 @@ body{
     background-color: navy;
 }
 
-#img{
+#img {
     border-radius: 50%;
     width: 3rem;
     margin-inline-start: 25px;
     margin-inline-end: 30px;
     margin: 1rem;
 }
-#img2{
+
+#img2 {
     border-radius: 10%;
     width: 3rem;
     height: 3rem;
@@ -104,17 +108,42 @@ body{
     margin-inline-end: 20px;
 }
 
-#action{
+#action {
     color: black;
     font-weight: bold;
 }
-#club{
+
+#club {
     color: blue;
     font-weight: 900;
 }
 
-#name{
+#name {
     color: black;
     font-weight: bolder;
 }
 
+/* Media Query for Mobile Phones */
+@media only screen and (max-width: 768px) {
+    .container {
+        margin: 20px 10px;
+    }
+    
+    #img {
+        margin-inline-start: 10px;
+        margin-inline-end: 10px;
+    }
+
+    #img2 {
+        margin-inline-start: 20px;
+        margin-inline-end: 10px;
+    }
+
+    #sp {
+        margin-inline-start: 1rem;
+    }
+
+    #border-box {
+        margin: -20px 1rem 0px 1rem;
+    }
+}
