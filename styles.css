@@ -126,7 +126,7 @@ body {
 /* Media Query for Mobile Phones */
 @media only screen and (max-width: 768px) {
     .container {
-        margin: 15px 10px 15px 10px;
+        margin: 15px 5px 25px 5px;
         /* margin: 20px 10px; */
     }
     
@@ -136,7 +136,7 @@ body {
     }
 
     #img2 {
-        margin-inline-start: 10px;
+        margin-inline-start: 3px;
         margin-inline-end: 10px;
     }
 
@@ -152,7 +152,7 @@ body {
         margin: 0 1rem 2rem 1rem;
     }
     .border-box{
-        margin: 5px 1rem 0px 80px;
+        margin: 5rem 5rem 0px 80px;
     }
     .notify-board {
         margin: 15px 25px 15px 20px;
